@@ -1,0 +1,30 @@
+{
+  "name": "manage-mysql",
+  "version": "1.0.0",
+  "description": "A Telegram bot to manage MySQL database operations such as creating tables, adding columns, and managing data.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "telegram",
+    "mysql",
+    "bot",
+    "database",
+    "CRUD"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "mysql": "^2.18.1",
+    "mysqldump": "^1.1.0",
+    "telegraf": "^4.11.0",
+    "fs": "0.0.1",
+    "path": "^0.12.7",
+    "child_process": "^1.0.2"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
